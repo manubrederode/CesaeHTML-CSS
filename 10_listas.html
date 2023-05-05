@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Listas</title>
+
+    <style>
+        /*podemos formatar várias classes ao mesmo tempo, caso tenham a mesma configuração.*/
+        body, p, a{
+            font-family: sans-serif;
+        }
+
+        h1{
+            background-color: #f7f59a;
+            padding: 2%;
+        }
+
+        /*para formatar as li separadas por tipo de lista, precisa por ol ou ul a frente*/
+        ol li{
+            list-style-type: lower-roman; /*colocou em número romanos*/
+            color: rgb(209, 151, 76);
+            list-style-position: inside; /*chegou mais para dentro*/
+        }
+
+        ul li{
+            list-style-type: circle;
+            color: #36e9ad;
+        }
+
+        
+    </style>
+</head>
+
+<body> 
+    <h1>Listas</h1>
+    <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+    </ul>
+
+    <ol>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+    </ol>
+
+</body>
+</html>

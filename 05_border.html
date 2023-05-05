@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Border</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            background-color: #cda6f1;
+            padding: 30px; /*para aumentar o espaço dentro da caixa, usamos a função padding.*/
+            border: 10px dotted; /*coloca borda, é importante definir o tipo, como solid.*/
+        }
+
+        h2{
+            background-color: #84f5f5;
+            width: 50%; /*ocupa sempre 50% do ecra*/
+            margin: 20px; /*para aumentar o espaço fora da caixa, usamos a função margin.*/
+            border: 5px dashed #f1b49e;
+        }
+
+        p{
+            background-color: #a5d2f7;
+            border: 5px inset;
+        }
+
+        /*para criar um novo estilo tem que começar necessariamente com um ponto.*/
+
+        .destaque{
+            background-color: #ccc;
+            color: #8a2be2;
+        }
+
+        .limites{
+            border: 5px solid #da8c70;
+            padding: 10px 5px 1px 0px; /*em cima, lado direito, embaixo, lado esquerdo*/
+        }
+
+        .limites2{
+            border: 5px dashed #962f2f;
+        }
+
+        .outline{
+            outline: 5px solid #2e8b57;
+        }
+
+        /*o border faz por dentro da caixa, o outline faz por fora da caixa.*/
+
+        .mistura{
+            border: 5px;
+            border-style: double;
+        }
+
+
+    </style>
+</head>
+<body> 
+    <h1>Box Model</h1>
+    <h2>Width e Heigth</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe debitis quo aliquam vel obcaecati facilis veniam ex repellat, temporibus cum.</p>
+    <p class="destaque">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe debitis quo aliquam vel obcaecati facilis veniam ex repellat, temporibus cum.</p>
+    <p class="destaque limites">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe debitis quo aliquam vel obcaecati facilis veniam ex repellat, temporibus cum.</p>
+    <p class="limites">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe debitis quo aliquam vel obcaecati facilis veniam ex repellat, temporibus cum.</p>
+    <p class="limites2 outline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe debitis quo aliquam vel obcaecati facilis veniam ex repellat, temporibus cum.</p>
+    <p class="mistura">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe debitis quo aliquam vel obcaecati facilis veniam ex repellat, temporibus cum.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe debitis quo aliquam vel obcaecati facilis veniam ex repellat, temporibus cum.</p>
+
+</body>
+</html>
